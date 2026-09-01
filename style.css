@@ -1160,3 +1160,193 @@ footer p {
     cursor:pointer;
 
 }
+/* =====================================
+   MOBILE PHONE VERSION
+===================================== */
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* -----------------------------
+       NAVIGATION
+    ----------------------------- */
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 15px;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 2.3rem;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 14px;
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: .72rem;
+        letter-spacing: .5px;
+    }
+
+    .rsvp-button {
+        padding: 8px 15px;
+    }
+
+
+    /* -----------------------------
+       HERO
+    ----------------------------- */
+
+    .hero {
+        height: 100vh;
+        min-height: 700px;
+        padding: 140px 20px 80px;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 400px;
+    }
+
+
+    /* TOGETHER WITH THEIR FAMILIES */
+
+    .subtitle {
+        font-size: 1.15rem;
+        line-height: 1.4;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+    }
+
+
+    /* PAIGE & RYAN */
+
+    .hero h1 {
+        font-size: 5.5rem;
+        line-height: .85;
+        margin: 15px 0;
+    }
+
+    .hero h1 span {
+        display: inline;
+        color: var(--sage);
+    }
+
+
+    /* ARE GETTING MARRIED */
+
+    .hero h2 {
+        font-size: 1.7rem;
+        line-height: 1.3;
+        margin-top: 20px;
+    }
+
+
+    /* DATE */
+
+    .date {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+
+
+    /* BUTTONS */
+
+    .hero-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .btn,
+    .btn-outline {
+        padding: 13px 18px;
+        font-size: .8rem;
+        letter-spacing: .5px;
+        width: 145px;
+        text-align: center;
+    }
+
+
+    /* SCROLL */
+
+    .scroll-down {
+        bottom: 20px;
+    }
+
+    .arrow {
+        font-size: 1.5rem;
+    }
+
+
+    /* -----------------------------
+       OTHER MOBILE SECTIONS
+    ----------------------------- */
+
+    .container {
+        width: 90%;
+    }
+
+    .welcome,
+    .countdown,
+    .quick-info,
+    .story-section,
+    .timeline,
+    .details-section,
+    .schedule,
+    .map-section,
+    .registry-section,
+    .gallery-section,
+    .rsvp-section {
+        padding: 70px 0;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+
+    /* STORY PAGE */
+
+    .story-card {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+
+    /* RSVP */
+
+    .rsvp-form {
+        padding: 30px 20px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+
+    /* CARDS */
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+}
