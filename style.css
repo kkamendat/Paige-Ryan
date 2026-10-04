@@ -1350,5 +1350,48 @@ footer p {
         width: 100%;
         max-width: 350px;
     }
+    /* -----------------------------
+       INNER PAGE HERO FIX
+    ----------------------------- */
 
+    .page-hero {
+        height: 60vh;
+        min-height: 520px;
+        padding: 130px 20px 50px;
+    }
+
+    .page-title {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        transform: translateY(35px);
+    }
+
+    .page-title h1 {
+        font-size: 4.2rem;
+        line-height: 1;
+        max-width: 100%;
+        margin: 0 auto 20px;
+    }
+
+    .page-title p {
+        font-size: 1.25rem;
+        line-height: 1.4;
+        padding: 0 10px;
+    }
+
+    /* Registry page */
+    .registry-intro {
+        font-size: 1rem;
+        line-height: 1.8;
+        margin-bottom: 35px;
+    }
+
+    .registry-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .registry-card {
+        padding: 35px 20px;
+    }
 }
